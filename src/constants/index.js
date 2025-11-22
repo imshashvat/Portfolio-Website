@@ -1,4 +1,3 @@
-
 import {
   logo,
   backend,
@@ -34,14 +33,10 @@ import {
   thirdTestimonial,
 } from '../assets'
 
-
 // Import Tekisky separately
 import tekisky from "../assets/company/tekisky.png";
 
-
 export const navLinks = [
-
-
   {
     id: "about",
     title: "About",
@@ -59,19 +54,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "Computer Science Student",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "AI Enthusiast",
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    title: "Problem Solver",
     icon: creator,
   },
 ];
@@ -101,8 +96,7 @@ const technologies = [
     name: "framer",
     icon: framer,
   },
-
- 
+  
   {
     name: "Three JS",
     icon: threejs,
@@ -143,27 +137,38 @@ const technologies = [
     name: "MySql",
     icon: mysql,
   },
-
   {
     name: "git",
     icon: git,
   },
- 
-
+  
 ];
 
 const experiences = [
   {
-    title: "Full-Stack Developer",
-    company_name: "Tekisky",
+    title: "Technical Club Leader",
+    company_name: "College Technical Club",
     icon: tekisky,
     iconBg: "#383E56",
-    date: "Jan 2023 - present",
+    date: "2024 - Present",
     points: [
-      "Developing and maintaining web applications using MERN technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Leading technical initiatives and organizing coding workshops for students.",
+      "Mentoring team members on software development best practices and emerging technologies.",
+      "Coordinating technical events, hackathons, and collaborative learning sessions.",
+      "Building a community of passionate developers and tech enthusiasts.",
+    ],
+  },
+  {
+    title: "Software Developer",
+    company_name: "Personal Projects",
+    icon: tekisky,
+    iconBg: "#E6DEDD",
+    date: "2023 - Present",
+    points: [
+      "Developing full-stack web applications using modern technologies like React, Node.js, and MongoDB.",
+      "Implementing AI-powered features using Gemini API for intelligent applications.",
+      "Creating system-level programs in C including OS algorithms and data structures.",
+      "Continuously learning and applying new technologies to solve real-world problems.",
     ],
   },
 ];
@@ -171,102 +176,102 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Huzaif proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
+      "Shashvat's dedication to learning and problem-solving is exceptional. His work on AI integration shows great promise.",
+    name: "Technical Mentor",
+    designation: "Senior Developer",
+    company: "Tech Community",
     image: firstTestimonial,
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Huzaif does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
+      "A talented developer with strong fundamentals in C programming and system design. Always eager to take on new challenges.",
+    name: "Project Collaborator",
+    designation: "Fellow Developer",
+    company: "Open Source",
     image: secondTestimonial,
   },
   {
     testimonial:
-      "After Huzaif optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "Shashvat's leadership in our technical club has inspired many students to pursue software development seriously.",
+    name: "Club Member",
+    designation: "CS Student",
+    company: "College",
     image: thirdTestimonial,
   },
 ];
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "TrainPredictor",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "An intelligent AI-powered application that forecasts train waitlist confirmation probabilities. Integrates Gemini API to analyze historical data and provide accurate predictions for railway ticket booking decisions.",
     tags: [
       {
-        name: "react",
+        name: "AI/ML",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Gemini API",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Python",
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Data Analysis",
         color: "green-text-gradient",
       },
- 
+      
     ],
     image: project2,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/imshashvat",
   },
   {
-    name: "GearXpert",
+    name: "OS Algorithms",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "Comprehensive implementation of fundamental Operating System algorithms in C, including CPU scheduling (FCFS, SJF, Round Robin), memory management, deadlock detection, and page replacement algorithms. Demonstrates deep understanding of system-level programming.",
     tags: [
       {
-        name: "react",
+        name: "C Programming",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "Operating Systems",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "Algorithms",
         color: "pink-text-gradient",
       },
     ],
     image: gearXpert,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/imshashvat",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Portfolio Website",
     description:
-      "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
+      "A modern, responsive portfolio website built with React, Three.js, and Tailwind CSS. Features 3D graphics, smooth animations, and an intuitive user interface to showcase projects, skills, and professional experience.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "Three.js",
         color: "white-text-gradient",
       },
       {
-        name: "node",
+        name: "Tailwind CSS",
         color: "green-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "3D Graphics",
+        color: "pink-text-gradient",
       },
     ],
     image: project3,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/imshashvat/Portfolio-Website",
   },
 ];
 
