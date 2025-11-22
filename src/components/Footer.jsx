@@ -5,18 +5,14 @@ const Footer = () => {
   return (
     <footer className="w-full py-4 bg-black-100/55 text-white flex justify-center gap-6">
       <a
-        href="#"
-        target="_blank"
+        href="https://www.instagram.com/_.eternal_18/"        target="_blank"
         rel="noopener noreferrer"
       >
         <FaInstagram size={24} />
       </a>
-      <a href="#" target="_blank" rel="noopener noreferrer">
-        <FaXTwitter size={24} />
-      </a>
+      <a href="#" target="_blank" rel="noopener noreferrer">      </a>
       <a
-        href="#"
-        target="_blank"
+        href="https://www.linkedin.com/in/shashvat-tripathi-6518aa332/"        target="_blank"
         rel="noopener noreferrer"
       >
         <FaLinkedin size={24} />
